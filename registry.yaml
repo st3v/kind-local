@@ -11,7 +11,7 @@ metadata:
   namespace: container-registry
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   volumeMode: Filesystem
   resources:
     requests:
